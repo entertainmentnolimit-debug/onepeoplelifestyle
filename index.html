@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One People Lifestyle</title>
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:Arial,sans-serif;
+background:#0a0a0a;
+color:white;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 5%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.85);
+z-index:1000;
+}
+
+.logo{
+color:#d4af37;
+font-size:30px;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin-left:25px;
+text-decoration:none;
+font-size:14px;
+text-transform:uppercase;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.75)),
+url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=2000&q=80');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero-content{
+max-width:800px;
+padding:20px;
+}
+
+.eight{
+font-size:160px;
+font-family:Georgia,serif;
+color:#d4af37;
+line-height:1;
+}
+
+.hero h1{
+font-size:70px;
+letter-spacing:8px;
+font-weight:300;
+}
+
+.hero h2{
+color:#d4af37;
+font-size:38px;
+letter-spacing:10px;
+margin-bottom:20px;
+}
+
+.hero p{
+font-size:18px;
+margin-bottom:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 30px;
+background:#d4af37;
+color:black;
+font-weight:bold;
+text-decoration:none;
+margin:10px;
+}
+
+.section{
+padding:80px 8%;
+}
+
+.dark{
+background:#0c0c0c;
+}
+
+.light{
+background:#f3eee7;
+color:black;
+}
+
+.title{
+text-align:center;
+margin-bottom:40px;
+}
+
+.title h2{
+font-size:42px;
+font-family:Georgia,serif;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(4,1fr);
+gap:20px;
+}
+
+.feature{
+text-align:center;
+padding:30px;
+border:1px solid rgba(212,175,55,.2);
+}
+
+.events{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:20px;
+}
+
+.event{
+background:#111;
+color:white;
+padding:20px;
+border-radius:10px;
+height:250px;
+display:flex;
+flex-direction:column;
+justify-content:flex-end;
+}
+
+.shop{
+display:grid;
+grid-template-columns:1fr 1fr;
+gap:40px;
+align-items:center;
+}
+
+.products{
+display:flex;
+gap:20px;
+justify-content:center;
+}
+
+.product{
+width:150px;
+height:180px;
+background:#111;
+border:1px solid #333;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:60px;
+color:#d4af37;
+}
+
+.gallery{
+display:grid;
+grid-template-columns:repeat(5,1fr);
+gap:10px;
+}
+
+.gallery div{
+height:150px;
+background:#222;
+}
+
+footer{
+background:#000;
+padding:60px 8%;
+text-align:center;
+}
+
+@media(max-width:900px){
+
+.features,
+.events,
+.shop,
+.gallery{
+grid-template-columns:1fr;
+}
+
+.hero h1{
+font-size:42px;
+}
+
+.hero h2{
+font-size:24px;
+}
+
+.eight{
+font-size:100px;
+}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="logo">8 ONE PEOPLE LIFESTYLE</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">Events</a>
+<a href="#">Lifestyle</a>
+<a href="#">Community</a>
+<a href="#">Shop</a>
+<a href="#">Over Ons</a>
+<a href="#">Contact</a>
+</nav>
+</header>
+
+<section class="hero">
+
+<div class="hero-content">
+
+<div class="eight">8</div>
+
+<h1>ONE PEOPLE</h1>
+
+<h2>LIFESTYLE</h2>
+
+<p>
+Verbinden. Inspireren. Samen beleven.
+</p>
+
+<a href="#" class="btn">Bekijk Events</a>
+
+<a href="#" class="btn">Ontdek Lifestyle</a>
+
+</div>
+
+</section>
+
+<section class="section dark">
+
+<div class="title">
+<h2>Alles draait om verbinding</h2>
+</div>
+
+<div class="features">
+
+<div class="feature">
+<h3>Events</h3>
+<p>Alle evenementen op één plek.</p>
+</div>
+
+<div class="feature">
+<h3>Fashion</h3>
+<p>Officiële kledinglijn.</p>
+</div>
+
+<div class="feature">
+<h3>Lifestyle</h3>
+<p>Travel, food en wellness.</p>
+</div>
+
+<div class="feature">
+<h3>Community</h3>
+<p>Mensen verbinden.</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section light">
+
+<div class="title">
+<h2>Beleef het samen</h2>
+</div>
+
+<div class="events">
+
+<div class="event">Family & Friends</div>
+<div class="event">BBQ Sundays</div>
+<div class="event">Caribbean Sunday</div>
+<div class="event">One People Festival</div>
+<div class="event">Elite Borrel</div>
+
+</div>
+
+</section>
+
+<section class="section dark shop">
+
+<div>
+
+<h2 style="font-size:50px;color:#d4af37;">
+Wear The Connection
+</h2>
+
+<p>
+De officiële One People Lifestyle kledinglijn.
+</p>
+
+<a href="#" class="btn">
+Shop Collectie
+</a>
+
+</div>
+
+<div class="products">
+
+<div class="product">8</div>
+<div class="product">8</div>
+<div class="product">8</div>
+
+</div>
+
+</section>
+
+<section class="section dark">
+
+<div class="title">
+<h2>Community</h2>
+</div>
+
+<div class="gallery">
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>ONE PEOPLE LIFESTYLE</h3>
+
+<p>
+Verbinding • Inspiratie • Samen beleven
+</p>
+
+</footer>
+
+</body>
+</html>
