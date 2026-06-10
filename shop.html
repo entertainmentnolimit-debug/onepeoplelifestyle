@@ -1,1 +1,179 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>One People Shop</title>
 
+<style>
+body{margin:0;font-family:Arial,sans-serif;background:#111;color:white;}
+nav{background:#000;padding:20px;text-align:center;}
+nav a{color:white;text-decoration:none;margin:0 15px;font-weight:bold;}
+
+.hero{
+height:65vh;
+background:linear-gradient(rgba(0,0,0,.55),rgba(0,0,0,.8)),url('shop-bg.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+}
+
+.hero h1{font-size:58px;color:#FFD700;margin:0;}
+.hero p{font-size:22px;}
+
+section{padding:60px 10%;text-align:center;}
+h2{color:#FFD700;}
+
+.products{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(240px,1fr));
+gap:25px;
+margin-top:35px;
+}
+
+.product{
+background:#1c1c1c;
+border-radius:18px;
+padding:22px;
+box-shadow:0 0 20px rgba(255,215,0,.12);
+}
+
+.product img{
+width:100%;
+height:260px;
+object-fit:cover;
+border-radius:14px;
+}
+
+.product h3{color:#FFD700;}
+.price{font-size:24px;font-weight:bold;margin:15px 0;}
+
+.btn{
+display:inline-block;
+background:#FFD700;
+color:#000;
+text-decoration:none;
+padding:14px 24px;
+border-radius:30px;
+font-weight:bold;
+margin-top:10px;
+}
+
+.payment-box{
+background:#000;
+border-radius:20px;
+padding:35px;
+margin-top:40px;
+}
+
+.payment-methods{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+gap:15px;
+margin-top:25px;
+}
+
+.pay{
+background:#1c1c1c;
+padding:15px 22px;
+border-radius:12px;
+font-weight:bold;
+}
+
+footer{background:#000;padding:30px;text-align:center;color:#aaa;}
+</style>
+</head>
+
+<body>
+
+<nav>
+<a href="index.html">HOME</a>
+<a href="events.html">EVENTS</a>
+<a href="lifestyle.html">LIFESTYLE</a>
+<a href="community.html">COMMUNITY</a>
+<a href="shop.html">SHOP</a>
+<a href="contact.html">CONTACT</a>
+</nav>
+
+<div class="hero">
+<div>
+<h1>ONE PEOPLE SHOP</h1>
+<p>Wear the Lifestyle • Feel the Vibe</p>
+</div>
+</div>
+
+<section>
+<h2>Official Merchandise</h2>
+<p>
+Bestel binnenkort exclusieve One People Lifestyle kleding en accessoires.
+</p>
+
+<div class="products">
+
+<div class="product">
+<img src="shop1.jpg" alt="One People T-shirt">
+<h3>One People T-shirt</h3>
+<p>Premium T-shirt met One People logo.</p>
+<div class="price">€29,95</div>
+<a class="btn" href="JOUW-MOLLIE-LINK-HIER">Bestel nu</a>
+</div>
+
+<div class="product">
+<img src="shop2.jpg" alt="One People Hoodie">
+<h3>One People Hoodie</h3>
+<p>Comfortabele hoodie voor events en lifestyle.</p>
+<div class="price">€59,95</div>
+<a class="btn" href="JOUW-MOLLIE-LINK-HIER">Bestel nu</a>
+</div>
+
+<div class="product">
+<img src="shop3.jpg" alt="One People Cap">
+<h3>One People Cap</h3>
+<p>Stijlvolle cap met herkenbare One People uitstraling.</p>
+<div class="price">€24,95</div>
+<a class="btn" href="JOUW-MOLLIE-LINK-HIER">Bestel nu</a>
+</div>
+
+</div>
+
+<div class="payment-box">
+<h2>Veilig betalen</h2>
+<p>
+Betalen kan straks veilig via iDEAL, Klarna, Visa, Mastercard, Apple Pay en PayPal.
+</p>
+
+<div class="payment-methods">
+<div class="pay">iDEAL</div>
+<div class="pay">Klarna</div>
+<div class="pay">Visa</div>
+<div class="pay">Mastercard</div>
+<div class="pay">Apple Pay</div>
+<div class="pay">PayPal</div>
+</div>
+
+<p style="margin-top:25px;color:#aaa;">
+Let op: de knoppen werken pas nadat je echte betaallinks van Mollie, Stripe of PayPal hebt toegevoegd.
+</p>
+</div>
+
+</section>
+
+<section>
+<h2>Coming Soon</h2>
+<p>
+Limited edition drops, event merchandise, community wear en exclusieve collecties.
+</p>
+</section>
+
+<footer>
+<h2>ONE PEOPLE SHOP</h2>
+<p>One World • One People • One Lifestyle</p>
+<p>© 2026 One People Lifestyle</p>
+</footer>
+
+</body>
+</html>
