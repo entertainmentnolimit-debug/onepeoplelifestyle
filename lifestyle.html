@@ -1,1 +1,206 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>One People Lifestyle</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #111;
+      color: white;
+    }
 
+    nav {
+      text-align: center;
+      padding: 25px;
+      background: rgba(0,0,0,0.8);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 18px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }
+
+    .hero {
+      min-height: 70vh;
+      background: linear-gradient(rgba(0,0,0,0.45), rgba(0,0,0,0.75)),
+      url('lifestyle-bg.jpg') center/cover no-repeat;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 40px;
+    }
+
+    .hero h1 {
+      font-size: 55px;
+      margin-bottom: 10px;
+      color: #ffd36a;
+    }
+
+    .hero p {
+      font-size: 22px;
+    }
+
+    section {
+      padding: 60px 10%;
+      text-align: center;
+    }
+
+    h2 {
+      color: #ffd36a;
+      font-size: 34px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 25px;
+      margin-top: 35px;
+    }
+
+    .card {
+      background: #1c1c1c;
+      padding: 30px;
+      border-radius: 18px;
+      box-shadow: 0 0 20px rgba(255, 180, 60, 0.15);
+    }
+
+    .card h3 {
+      color: #ffd36a;
+    }
+
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 25px;
+      margin-top: 40px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 280px;
+      object-fit: cover;
+      border-radius: 18px;
+    }
+
+    .quote {
+      background: #000;
+      font-size: 26px;
+      color: #ffd36a;
+      font-weight: bold;
+    }
+
+    footer {
+      background: #000;
+      text-align: center;
+      padding: 30px;
+      color: #aaa;
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="index.html">HOME</a>
+  <a href="events.html">EVENTS</a>
+  <a href="lifestyle.html">LIFESTYLE</a>
+  <a href="#">COMMUNITY</a>
+  <a href="#">SHOP</a>
+  <a href="#">CONTACT</a>
+</nav>
+
+<div class="hero">
+  <div>
+    <h1>ONE PEOPLE LIFESTYLE</h1>
+    <p>Connect • Celebrate • Inspire</p>
+  </div>
+</div>
+
+<section>
+  <h2>Meer dan een evenement</h2>
+  <p>
+    One People Lifestyle brengt mensen samen door muziek, cultuur,
+    verbinding en positieve energie.
+  </p>
+  <p>
+    Wij geloven dat ongeacht afkomst, leeftijd, geloof of achtergrond
+    iedereen één ding gemeen heeft: de behoefte om samen mooie momenten te beleven.
+  </p>
+</section>
+
+<section>
+  <h2>Onze kernwaarden</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>❤️ Verbinden</h3>
+      <p>Wij creëren evenementen waar nieuwe vriendschappen ontstaan en mensen zich welkom voelen.</p>
+    </div>
+
+    <div class="card">
+      <h3>🎵 Muziek</h3>
+      <p>Van Reggae en Afro Beats tot R&B, Soul, Latin en Classics. Muziek verbindt generaties en culturen.</p>
+    </div>
+
+    <div class="card">
+      <h3>🌴 Lifestyle</h3>
+      <p>Een positieve levensstijl waarin genieten, respect, gezondheid, groei en community centraal staan.</p>
+    </div>
+
+    <div class="card">
+      <h3>🤝 Community</h3>
+      <p>Wij ondersteunen initiatieven die bijdragen aan een sterkere en inclusieve samenleving.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>Onze missie</h2>
+  <p>
+    One People Lifestyle inspireert mensen om uit hun dagelijkse routine te stappen,
+    nieuwe contacten te leggen en herinneringen te maken die een leven lang meegaan.
+  </p>
+</section>
+
+<section>
+  <h2>Wat kun je verwachten?</h2>
+
+  <div class="cards">
+    <div class="card">Exclusieve evenementen</div>
+    <div class="card">Live entertainment</div>
+    <div class="card">Festivals</div>
+    <div class="card">Caribbean & Afro Culture</div>
+    <div class="card">Lifestyle inspiratie</div>
+    <div class="card">Community projecten</div>
+    <div class="card">Netwerk evenementen</div>
+    <div class="card">Gezondheid & welzijn</div>
+  </div>
+</section>
+
+<section>
+  <h2>Sfeerbeelden</h2>
+
+  <div class="gallery">
+    <img src="lifestyle1.jpg" alt="One People Lifestyle event">
+    <img src="lifestyle2.jpg" alt="Caribbean lifestyle">
+    <img src="lifestyle3.jpg" alt="Community and positive vibes">
+  </div>
+</section>
+
+<section class="quote">
+  “Bringing people together through music, culture and positive vibes.”
+</section>
+
+<footer>
+  © 2026 One People Lifestyle — One World, One People
+</footer>
+
+</body>
+</html>
